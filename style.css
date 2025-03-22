@@ -1,0 +1,56 @@
+body{
+    background: linear-gradient(100deg,skyblue 0%,lightblue 50%,skyblue 100%);
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    color: black;
+    flex-direction: column;
+    
+}
+h1{
+    margin: 50px;
+    font-size: 65px;
+}
+#button{
+    height: 40px;
+    width: 70px;
+    background: white;
+    color: black;
+    font-size: 30px;
+    line-height: 50px;
+    text-align: center;
+}
+
+#button:hover{
+    cursor: pointer;
+    box-shadow: 0px 3px 3px whitesmoke;
+}
+#city{
+    font-size: 40px;
+    line-height: 38px;
+    color: rgb(35, 216, 116);
+    margin: 10px;
+}
+#weather{
+    display: flex;
+    font-size: 40px;
+    line-height: 38px;
+    color: rgb(21, 21, 21);
+    margin: 5px;
+    text-align: center;
+}
+#description{
+    display: flex;
+    font-size: 40px;
+    line-height: 38px;
+    color: rgb(230, 20, 20);
+    margin: 5px;
+.temp{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: brown;
+    margin: 10px;
+}
